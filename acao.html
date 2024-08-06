@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações da Ação</title>
+</head>
+<body>
+    <h1>Informações da Ação - {{ ticker }}</h1>
+    <ul>
+        <li><strong>Nome completo da ação:</strong> {{ long_name }}</li>
+        <li><strong>País:</strong> {{ country }}</li>
+        <li><strong>Indústria:</strong> {{ industry }}</li>
+        <li><strong>Taxa de dividendo (Dividend Rate):</strong> {{ dividend_rate }}</li>
+        <li><strong>Rendimento de dividendo (Dividend Yield):</strong> {{ dividend_yield }}</li>
+        <li><strong>Beta (Volatilidade da ação sobre o mercado):</strong> {{ beta }}</li>
+        <li><strong>Último valor de dividendo:</strong> {{ last_dividend_value }}</li>
+    </ul>
+    <a href="/">Consultar outra ação</a>
+</body>
+</html>
