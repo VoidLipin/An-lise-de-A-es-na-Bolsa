@@ -32,12 +32,12 @@ if ticker:
     free_cash_flow = ticker_data.info.get('freeCashflow', 'Não disponível')
 
     # Mostrando as informações
-    st.subheader(f"Informações para {long_name}")
+    st.subheader(f"Informações para acão: {long_name}")
     st.write(f"**País:** {country}")
     st.write(f"**Indústria:** {industry}")
     st.write(f"**Taxa de dividendo:** {dividend_rate}")
     st.write(f"**Rendimento de dividendo:** {dividend_yield}")
-    st.write(f"**Beta:** {beta}")
+    st.write(f"**Beta (Volatilidade):** {beta}")
     st.write(f"**Último valor de dividendo:** {last_dividend_value}")
     st.write(f"**Preço-alvo médio dos analistas:** {target_mean_price}")
     st.write(f"**Proporção P/L (Forward P/E):** {forward_pe}")
