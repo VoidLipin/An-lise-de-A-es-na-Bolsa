@@ -7,11 +7,11 @@ Clique em "Submit" para visualizar as informações e gráficos relacionados à 
 O aplicativo exibirá:
 Informações gerais sobre a ação (nome, país, indústria, dividendos, etc.).
 Gráficos do histórico de preços de fechamento e volume negociado.
-## Exemplo de Uso
+### Exemplo de Uso
 Digite o ticker de uma ação, como AAPL para Apple Inc., e pressione Enter para ver os dados.
 
-## Contribuições
+### Contribuições
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
+### Licença
 Este projeto está licenciado sob a Licença MIT.
