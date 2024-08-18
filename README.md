@@ -20,8 +20,12 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 ### Executando o Aplicativo
 
-1. Inicie o Aplicativo Streamlit
-2. Acesse o Aplicativo
+1. Inicie o Aplicativo Streamlit:
+  No terminal, execute o comando abaixo para iniciar o aplicativo Streamlit:
+    ´´streamlit run app.py´´
+3. Acesse o Aplicativo:
+  O Streamlit abrirá automaticamente o aplicativo em seu navegador padrão. Caso isso não aconteça, acesse o aplicativo manualmente em:
+    ´´http://localhost:8501´´
 
 ### Utilização
 
