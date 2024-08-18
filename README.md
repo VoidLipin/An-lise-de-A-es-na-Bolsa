@@ -13,7 +13,7 @@ Certifique-se de ter o Python instalado. Recomendo usar um ambiente virtual para
 
 Siga os passos abaixo para configurar e executar o projeto:
 
-### 1. Clone o Repositório
+1. Clone o Repositório
 
 Abra um terminal e execute o seguinte comando para clonar o repositório:
 
@@ -21,12 +21,26 @@ Abra um terminal e execute o seguinte comando para clonar o repositório:
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
-### 2. Crie e Ative um Ambiente Virtual (Opcional, mas Recomendado)
+2. Crie e Ative um Ambiente Virtual (Opcional, mas Recomendado)
 
 Crie um ambiente virtual para isolar as dependências do projeto:
 
 python -m venv venv
 
-##### Ative o ambiente virtual:
+Ative o ambiente virtual:
 
 No Windows:
+
+venv\Scripts\activate
+
+No macOS/Linux:
+
+source venv/bin/activate
+
+3. Instale as Dependências
+
+Instale as dependências usando o comando:
+
+pip install -r requirements.txt
+
+### Executando o Aplicativo
