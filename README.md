@@ -5,11 +5,11 @@ Um site que contém um banco de dados (Yahoo Finances) e consegue por meio do c�
 
 Este projeto utiliza o Streamlit para exibir informações sobre ações financeiras, incluindo gráficos históricos de preços e volume. As informações são obtidas usando a biblioteca `yfinance`.
 
-## Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter o Python instalado. Recomendo usar um ambiente virtual para gerenciar as dependências do projeto.
 
-## Instalação
+### Instalação
 
 1. **Clone o repositório ou instale:**
 
