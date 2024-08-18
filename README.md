@@ -11,23 +11,12 @@ Certifique-se de ter o Python instalado. Recomendo usar um ambiente virtual para
 
 ### Instalação
 
-1. **Clone o repositório ou instale:**
+Siga os passos abaixo para configurar e executar o projeto:
 
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+### 1. Clone o Repositório
 
-# Utilização
-Na página inicial do aplicativo, insira o código da ação desejada no campo de texto.
-Clique em "Submit" para visualizar as informações e gráficos relacionados à ação.
-O aplicativo exibirá:
-Informações gerais sobre a ação (nome, país, indústria, dividendos, etc.).
-Gráficos do histórico de preços de fechamento e volume negociado.
-### Exemplo de Uso
-Digite o ticker de uma ação, como AAPL para Apple Inc., e pressione Enter para ver os dados.
+Abra um terminal e execute o seguinte comando para clonar o repositório:
 
-### Contribuições
-Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-### Licença
-Este projeto está licenciado sob a Licença MIT.
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
