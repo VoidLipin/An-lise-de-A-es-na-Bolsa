@@ -20,3 +20,13 @@ Abra um terminal e execute o seguinte comando para clonar o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+
+### 2. Crie e Ative um Ambiente Virtual (Opcional, mas Recomendado)
+
+Crie um ambiente virtual para isolar as dependências do projeto:
+
+python -m venv venv
+
+##### Ative o ambiente virtual:
+
+No Windows:
