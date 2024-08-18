@@ -1,46 +1,57 @@
-# Análise de ações na bolsa
-Um site que contém um banco de dados (Yahoo Finances) e consegue por meio do código das ações de interesse do usuário (tais como: "MXRF11.SA", "VINO11.SA, "GOOG", etc.) consegue formatar e dar alguns dados de interesses para pessoas que poderão ou não comprar algumas cotas das ações de interesse
+# Análise de Ações na Bolsa
 
-# Informações de Ações com Streamlit
+Um site que utiliza o banco de dados do Yahoo Finance para fornecer informações sobre ações com base no código inserido pelo usuário.
 
-Este projeto utiliza o Streamlit para exibir informações sobre ações financeiras, incluindo gráficos históricos de preços e volume. As informações são obtidas usando a biblioteca `yfinance`.
+## Informações de Ações com Streamlit
+
+Este projeto utiliza o Streamlit para exibir informações sobre ações financeiras.
 
 ### Pré-requisitos
 
-Certifique-se de ter o Python instalado. Recomendo usar um ambiente virtual para gerenciar as dependências do projeto.
+Certifique-se de ter o Python instalado.
 
 ### Instalação
 
 Siga os passos abaixo para configurar e executar o projeto:
 
-**1. Clone o Repositório**
-
-Abra um terminal e execute o seguinte comando para clonar o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-
-**2. Crie e Ative um Ambiente Virtual (Opcional, mas Recomendado)**
-
-Crie um ambiente virtual para isolar as dependências do projeto:
-
-python -m venv venv
-
-Ative o ambiente virtual:
-
-No Windows:
-
-venv\Scripts\activate
-
-No macOS/Linux:
-
-source venv/bin/activate
-
+1. Clone o Repositório
+2. Crie e Ative um Ambiente Virtual
 3. Instale as Dependências
 
-Instale as dependências usando o comando:
-
-pip install -r requirements.txt
-
 ### Executando o Aplicativo
+
+1. Inicie o Aplicativo Streamlit
+2. Acesse o Aplicativo
+
+### Utilização
+
+1. Insira o código da ação desejada no campo de texto.
+2. Clique em "Submit" para visualizar as informações e gráficos relacionados à ação.
+
+### Guia do Usuário
+
+#### Entrada de Dados
+
+- Campo de Texto
+- Botão "Submit"
+
+#### Navegação pelo Aplicativo
+
+- Informações da Ação
+- Gráficos
+
+#### Dicas
+
+- Use códigos de ação válidos.
+
+### Exemplo de Uso
+
+Digite o ticker de uma ação e pressione Enter para ver os dados.
+
+### Contribuições
+
+Se deseja contribuir, abra uma issue ou envie um pull request.
+
+### Licença
+
+Este projeto está licenciado sob a Licença MIT.
